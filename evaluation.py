@@ -25,7 +25,7 @@ import matplotlib.pyplot as plt
 # Deep Learning
 from keras.models import Sequential
 from keras.layers import Dense, Dropout
-from keras.layers.normalization import BatchNormalization
+from keras.layers import BatchNormalization
 from keras import regularizers
 from keras.optimizers import SGD
 from keras.utils import to_categorical
